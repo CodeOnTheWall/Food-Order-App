@@ -1,0 +1,20 @@
+.summary {
+  text-align: center;
+  max-width: 45rem;
+  width: 90%;
+  margin: 2rem auto 2rem;
+  /* top, left-right, bottom */
+  position: relative;
+  /* The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. */
+  background-color: #383838;
+  color: white;
+  border-radius: 14px;
+  padding: 1rem;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+
+.summary h2 {
+  font-size: 2rem;
+  margin-top: 0;
+}
